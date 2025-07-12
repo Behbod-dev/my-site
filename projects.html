@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>My Projects</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="navbar">
+    <h1>Projects</h1>
+    <nav>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="About Page.html">About</a></li>
+        <li><a href="projects.html">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h2>نمونه پروژه‌های من</h2>
+    <p>چند پروژه‌ی تمرینی و حرفه‌ای که انجام دادم با تمرکز روی طراحی تمیز، تجربه کاربری، و انیمیشن‌های جذاب.</p>
+  </section>
+
+  <section id="projects" class="projects">
+    <div class="project-card" onclick="openProject('https://github.com/behbod/project-weather')">
+      <h2>Weather App</h2>
+      <p>اپلیکیشن آب‌وهوا با استفاده از JavaScript و API واقعی</p>
+    </div>
+
+    <div class="project-card" onclick="openProject('https://github.com/behbod/animated-portfolio')">
+      <h2>Animated Portfolio</h2>
+      <p>پورتفولیوی واکنش‌گرا با انیمیشن‌های CSS و طراحی مدرن</p>
+    </div>
+
+    <div class="project-card" onclick="openProject('https://github.com/behbod/quiz-app')">
+      <h2>Quiz App</h2>
+      <p>اپلیکیشن آزمون چندگزینه‌ای با امتیازدهی لحظه‌ای</p>
+    </div>
+
+    <div class="project-card" onclick="openProject('https://github.com/behbod/3d-card-hover')">
+      <h2>3D Card Hover</h2>
+      <p>افکت 3D روی کارت‌ها با CSS فقط، بدون جاوااسکریپت</p>
+    </div>
+  </section>
+
+  <section id="contact" class="contact">
+    <h2 class="section-title">ارتباط با من</h2>
+    <p>behbodjvvv1390@gmail.com</p>
+    <a href="https://www.linkedin.com/in/behbod-jvadian-813597357" target="_blank" class="linkedin-link">
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg" alt="LinkedIn" />
+      LinkedIn
+    </a>
+  </section>
+
+  <footer>
+    <p>© 2025 ساخته شده با ❤️ توسط Behbod Jv</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
