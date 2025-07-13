@@ -46,12 +46,12 @@
         <p>Beautiful product display using CSS grid and subtle hover effects.</p>
       </div>
 
-      <!-- ✅ کارت پروژه جدید با دکمه -->
-      <div class="project-card">
+      <!-- کارت پروژه جدید با دکمه -->
+      <div class="project-card show ">
         <h3>AI Chatbot</h3>
-        <p>چت‌بات هوشمند با استفاده از JavaScript و OpenAI API برای مکالمه طبیعی.</p>
+        <p>AI-powered chatbot using JavaScript and OpenAI for smooth natural conversations.</p>
         <button class="button" onclick="openProject('https://github.com/yourname/ai-chatbot')">
-          مشاهده پروژه
+          show project 
         </button>
       </div>
 
@@ -98,4 +98,8 @@
       const loader = document.getElementById('loader');
       setTimeout(() => {
         loader.classList.add('fade-out');
-      }, 1000
+      }, 1000);
+    });
+  </script>
+</body>
+</html>
